@@ -1,0 +1,6 @@
+import{c,u as d,a as g,j as i,T as l,F as h,B as n,R as t}from"./index-DLdgdxs1.js";import{G as x,a as o}from"./Grid-xB-elmy6.js";import{C as s}from"./Card-CtQc0EFa.js";/**
+ * @license @tabler/icons-react v3.21.0 - MIT
+ *
+ * This source code is licensed under the MIT license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var r=c("outline","chevron-right","IconChevronRight",[["path",{d:"M9 6l6 6l-6 6",key:"svg-0"}]]);const R=()=>{const e=d(),{description:a}=g();return i.jsxs(x,{gutter:"lg",py:"lg",children:[i.jsx(o,{span:12,children:i.jsxs(s,{radius:"lg",children:[i.jsx(s.Section,{p:"lg",children:i.jsx(l,{size:"xl",fw:700,children:"Introduction"})}),i.jsx(s.Section,{px:"lg",pb:"lg",children:i.jsx(l,{c:"gray.8",children:a})})]})}),i.jsx(o,{span:12,children:i.jsxs(h,{gap:"lg",direction:"column",w:"100%",children:[i.jsx(n,{fullWidth:!0,size:"lg",bg:"dark.7",rightSection:i.jsx(r,{}),onClick:()=>e(t.PROJECTS.path),children:"All Projects"}),i.jsx(n,{fullWidth:!0,size:"lg",rightSection:i.jsx(r,{}),bg:"indigo.9",onClick:()=>e(t.ROUND1.path),children:"Round 1 - Main Round"}),i.jsx(n,{fullWidth:!0,size:"lg",bg:"dark.2",rightSection:i.jsx(r,{}),onClick:()=>e(t.ROUND2.path),children:"Round 2 - Final"})]})})]})};export{R as default};
