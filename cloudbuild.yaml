@@ -1,0 +1,23 @@
+steps:
+  # Step 1: Build the Docker image
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "australia-southeast1-docker.pkg.dev/data-backup-438204-v8/judging-app-fe/app",
+        ".",
+      ]
+    env:
+      - "DOCKER_BUILDKIT=1"
+
+  # Step 2: Push the Docker image to Artifact Registry
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "push",
+        "australia-southeast1-docker.pkg.dev/data-backup-438204-v8/judging-app-fe/app",
+      ]
+
+images:
+  - "australia-southeast1-docker.pkg.dev/data-backup-438204-v8/judging-app-fe/app"

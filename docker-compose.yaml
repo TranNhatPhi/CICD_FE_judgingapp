@@ -1,0 +1,16 @@
+
+services:
+    frontend:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      image: frontend_identity_service
+      container_name: frontend_identity_service
+      ports:
+        - "5173:80"
+      networks:
+        - networks_shared
+
+networks:
+  networks_shared:
+    driver: bridgej
