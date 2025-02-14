@@ -13,4 +13,4 @@ services:
 
 networks:
   networks_shared:
-    driver: bridgej
+    driver: bridge
