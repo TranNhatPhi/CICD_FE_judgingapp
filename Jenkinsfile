@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sshagent(['dd']) {
                     sh '''
-                        ssh -o StrictHostKeyChecking=no -l ubuntu 51.79.161.34 "cd /home/ubuntu && echo 'hello world' "
+                        ssh -o StrictHostKeyChecking=no -l ubuntu 51.79.161.34 "cd /home/ubuntu && ./deploy_fe_judgingapp.sh"
                     '''
                 }
             }
