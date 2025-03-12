@@ -22,4 +22,4 @@ coverage/
 
 # ESLint
 .eslintcache
-.env
+# .env
