@@ -1,14 +1,14 @@
 node_modules
 .DS_Store
 
-# dist-ssr
+dist-ssr
 *.local
 
 yarn-error.log*
 .pnpm-debug.log*
 
 # TS
-# *.tsbuildinfo
+*.tsbuildinfo
 
 # Turbo
 .turbo
