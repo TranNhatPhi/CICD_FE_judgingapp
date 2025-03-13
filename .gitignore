@@ -8,7 +8,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # TS
-*.tsbuildinfo
+# *.tsbuildinfo
 
 # Turbo
 .turbo
