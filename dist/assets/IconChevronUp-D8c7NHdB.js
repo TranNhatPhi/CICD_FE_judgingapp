@@ -1,4 +1,4 @@
-import{c as o}from"./index-C-fOiTDS.js";/**
+import{c as o}from"./index-CMJNtPD3.js";/**
  * @license @tabler/icons-react v3.21.0 - MIT
  *
  * This source code is licensed under the MIT license.
