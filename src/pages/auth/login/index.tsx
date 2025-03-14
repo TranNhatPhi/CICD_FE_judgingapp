@@ -71,7 +71,7 @@ const LoginPage = () => {
                 deg: 45,
               }}
             >
-              Trade Show
+              Nhat Phi
             </Text>
           </Flex>
           <Flex direction={"column"} gap={"md"}>
