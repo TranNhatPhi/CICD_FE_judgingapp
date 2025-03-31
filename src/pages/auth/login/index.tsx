@@ -71,7 +71,7 @@ const LoginPage = () => {
                 deg: 45,
               }}
             >
-              Nhat Phi
+              Judging App
             </Text>
           </Flex>
           <Flex direction={"column"} gap={"md"}>
